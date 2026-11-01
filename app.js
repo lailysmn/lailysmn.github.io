@@ -1255,7 +1255,7 @@
     var h =
       '<div class="card stack"><h2>Lacak dari HP ini (GPS real-time)</h2>';
     // h+='<p>Menyalakan ini membaca GPS HP yang sedang membuka halaman ini sekarang, lalu menggerakkan titik "Posisi saya" di peta secara real-time mengikuti pergerakan Anda yang sebenarnya. Buka situs ini di Safari pada iPhone 11 Anda, lalu aktifkan di sini.</p>';
-    // h+='<div class="row-sw"><div><b>'+gpsStatusText()+'</b>'+(on&&g.lat!=null?'<small>Lat '+g.lat.toFixed(6)+', Lon '+g.lon.toFixed(6)+(g.speed?' · '+Math.round(g.speed*3.6)+' km/j':'')+'</small>':'<small>Posisi tidak dibagikan ke pihak lain, hanya dipakai di browser ini.</small>')+'</div><button class="sw" type="button" role="switch" data-act="gps-toggle" aria-checked="'+on+'" aria-label="Lacak dari HP ini"></button></div>';
+    // h+='<div class="row-sw"><div><b>'+gpsStatusText()+'</b>'+(on&&g.lat!=null?'<small>Lat '+g.lat.toFixed(6)+', Lon '+g.lon.toFixed(6)+(g.speed?' · '+Math.round(g.speed*3.6)+' km/j':'')+'</small>':'<small>Posisi tidak dibagikan ke pihak lain, hanya dipakai di browser ini.</small>')+'</div><button class="sw" type="button" role="switch" data-act="gps-toggle" aria-checked="'+on+'" aria-label=" dari HP ini"></button></div>';
     // if(!secureOK())h+='<div class="note">'+ic('alert',18)+'<span>Alamat saat ini bukan HTTPS. Di iPhone, Safari hanya mengizinkan akses lokasi lewat https:// atau localhost. Lihat README untuk cara mengaktifkan HTTPS lokal atau deploy gratis.</span></div>';
     // h+='<div class="note info">'+ic('phone',18)+'<span>Ini posisi GPS asli dari browser HP Anda, bukan pairing Bluetooth tag sungguhan. Pelacakan tag Find My/Find Hub tetap lewat aplikasi bawaan iPhone, bukan lewat website.</span></div>';
     // h+='</div>';
@@ -1708,7 +1708,7 @@
     var h = "";
     if (a.step === 1) {
       h +=
-        '<h2>Barang apa yang ingin dilacak?</h2><div class="types" role="radiogroup" aria-label="Jenis barang">' +
+        '<h2>Barang apa yang ingin di?</h2><div class="types" role="radiogroup" aria-label="Jenis barang">' +
         Object.keys(TYPES)
           .map(function (k) {
             return (

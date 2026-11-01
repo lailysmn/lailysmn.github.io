@@ -1,4 +1,4 @@
-# Sip the Warmth (prototipe web)
+<!-- # Sip the Warmth (prototipe web)
 
 Prototipe aplikasi pelacak tumbler: posisi perangkat, petunjuk arah, riwayat lokasi,
 tambah barang, dan panduan penempatan tag. Berjalan di laptop, iPad, iPhone, dan Android.
@@ -9,7 +9,7 @@ tambah barang, dan panduan penempatan tag. Berjalan di laptop, iPad, iPhone, dan
 sip-the-warmth/
 ├── index.html   halaman utama
 ├── style.css    tampilan (tema terang dan gelap)
-├── app.js       logika peta, rute, tambah barang, an
+├── app.js       logika peta, rute, tambah barang, panduan
 └── assets/      logo dan gambar prototipe
 ```
 
@@ -78,4 +78,4 @@ Saat diaktifkan:
    batasan browser di semua HP, bukan hanya iPhone.
 4. Yang **tidak** bisa dilakukan lewat website: pairing Bluetooth sungguhan ke tag Find My/Find Hub,
    notifikasi lokasi di latar belakang, atau mengakses jaringan Find My Apple. Itu perlu aplikasi
-   native dan di luar cakupan prototipe berbasis web ini.
+   native dan di luar cakupan prototipe berbasis web ini. -->
